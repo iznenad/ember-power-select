@@ -69,7 +69,7 @@ const initialState = {
 export default Component.extend({
   // HTML
   layout,
-  tagName: '',
+  tagName: 'span',
 
   // Options
   searchEnabled: fallbackIfUndefined(true),
