@@ -3,7 +3,7 @@ import { scheduleOnce } from 'ember-runloop';
 import layout from '../../templates/components/power-select/before-options';
 
 export default Component.extend({
-  tagName: '',
+  tagName: 'span',
   layout,
   autofocus: true,
 
