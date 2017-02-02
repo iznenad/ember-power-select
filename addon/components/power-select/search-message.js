@@ -3,5 +3,5 @@ import layout from '../../templates/components/power-select/search-message';
 
 export default Component.extend({
   layout,
-  tagName: ''
+  tagName: 'span'
 });
